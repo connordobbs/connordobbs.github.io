@@ -1,0 +1,8 @@
+name: "Connor Dobbs MSDS Website"
+navbar:
+  title: "Connor Dobbs MSDS Website"
+  left:
+    - text: "About Me"
+      href: index.html
+   # - text: "CLT"
+     # href: CLT_2.html
