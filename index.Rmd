@@ -1,10 +1,7 @@
----
-title: ""
-output: html_document
----
-
 # About Me
 
-My name is Connor Dobbs and I am a current student in SMU's MSDS program. I am based out of Dallas and currently work in Supply Chain Planning and Analytics. 
+### My name is Connor Dobbs and I am a current student in SMU's MSDS program. I am based out of Dallas and currently work in Supply Chain Planning and Analytics. 
 
-Hobbies include keeping up with the Data Science field, music (enjoy a wide range and currently learning to play guitar as a COVID quarantining passion project), reading, and watching Liverpool soccer matches. 
+### Hobbies include keeping up with the Data Science field, music (enjoy a wide range and currently learning to play guitar as a COVID quarantining passion project), reading, and watching Liverpool soccer matches. 
+
+### The other tabs on this website contain examples of my work and analyses. Please check them out and feel free to send any feedback or questions to dobbs@smu.edu!
