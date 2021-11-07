@@ -275,7 +275,7 @@ confusionMatrix(table(classifications,test$Style))
 
 #  testing 90 values of K to find one with highest Accuracy. 
 set.seed(42)
-iterations = 500
+iterations = 50
 numks = 90
 splitPerc = .70
 

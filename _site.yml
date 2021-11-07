@@ -4,5 +4,5 @@ navbar:
   left:
     - text: "About Me"
       href: index.html
-    - text: "Beer Data EDA"
+    - text: "Budweiser-Data-Analysis"
       href: Budweiser-Data-Analysis.html
