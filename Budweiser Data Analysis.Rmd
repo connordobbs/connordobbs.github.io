@@ -1,5 +1,5 @@
 ---
-title: "Budweiser Data Analysis"
+title: "BeerDataEDA"
 author: "Jasmine O'Neal and Connor Dobbs"
 date: "10/10/2021"
 output: html_document
