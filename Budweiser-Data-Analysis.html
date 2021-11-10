@@ -247,7 +247,7 @@ $(document).ready(function () {
   <a href="index.html">About Me</a>
 </li>
 <li>
-  <a href="Budweiser-Data-Analysis.html">Budweiser-Data-Analysis</a>
+  <a href="Budweiser-Data-Analysis.html">Beer Data Analysis</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -663,26 +663,26 @@ confusionMatrix(table(classifications,test$Style))</code></pre>
 ## 
 ##                
 ## classifications Ale IPA
-##             Ale 149  15
-##             IPA  20  93
+##             Ale 143  26
+##             IPA  13  95
 ##                                           
-##                Accuracy : 0.8736          
-##                  95% CI : (0.8287, 0.9104)
-##     No Information Rate : 0.6101          
-##     P-Value [Acc &gt; NIR] : &lt;2e-16          
+##                Accuracy : 0.8592          
+##                  95% CI : (0.8126, 0.8979)
+##     No Information Rate : 0.5632          
+##     P-Value [Acc &gt; NIR] : &lt; 2e-16         
 ##                                           
-##                   Kappa : 0.7366          
+##                   Kappa : 0.7104          
 ##                                           
-##  Mcnemar&#39;s Test P-Value : 0.499           
+##  Mcnemar&#39;s Test P-Value : 0.05466         
 ##                                           
-##             Sensitivity : 0.8817          
-##             Specificity : 0.8611          
-##          Pos Pred Value : 0.9085          
-##          Neg Pred Value : 0.8230          
-##              Prevalence : 0.6101          
-##          Detection Rate : 0.5379          
-##    Detection Prevalence : 0.5921          
-##       Balanced Accuracy : 0.8714          
+##             Sensitivity : 0.9167          
+##             Specificity : 0.7851          
+##          Pos Pred Value : 0.8462          
+##          Neg Pred Value : 0.8796          
+##              Prevalence : 0.5632          
+##          Detection Rate : 0.5162          
+##    Detection Prevalence : 0.6101          
+##       Balanced Accuracy : 0.8509          
 ##                                           
 ##        &#39;Positive&#39; Class : Ale             
 ## </code></pre>
@@ -692,26 +692,26 @@ confusionMatrix(table(classifications,test$Style))</code></pre>
 ## 
 ##                
 ## classifications Ale IPA
-##             Ale 158  21
-##             IPA  11  87
+##             Ale 144  30
+##             IPA  12  91
 ##                                           
-##                Accuracy : 0.8845          
-##                  95% CI : (0.8408, 0.9196)
-##     No Information Rate : 0.6101          
-##     P-Value [Acc &gt; NIR] : &lt;2e-16          
+##                Accuracy : 0.8484          
+##                  95% CI : (0.8006, 0.8885)
+##     No Information Rate : 0.5632          
+##     P-Value [Acc &gt; NIR] : &lt; 2.2e-16       
 ##                                           
-##                   Kappa : 0.7531          
+##                   Kappa : 0.6866          
 ##                                           
-##  Mcnemar&#39;s Test P-Value : 0.1116          
+##  Mcnemar&#39;s Test P-Value : 0.008712        
 ##                                           
-##             Sensitivity : 0.9349          
-##             Specificity : 0.8056          
-##          Pos Pred Value : 0.8827          
-##          Neg Pred Value : 0.8878          
-##              Prevalence : 0.6101          
-##          Detection Rate : 0.5704          
-##    Detection Prevalence : 0.6462          
-##       Balanced Accuracy : 0.8702          
+##             Sensitivity : 0.9231          
+##             Specificity : 0.7521          
+##          Pos Pred Value : 0.8276          
+##          Neg Pred Value : 0.8835          
+##              Prevalence : 0.5632          
+##          Detection Rate : 0.5199          
+##    Detection Prevalence : 0.6282          
+##       Balanced Accuracy : 0.8376          
 ##                                           
 ##        &#39;Positive&#39; Class : Ale             
 ## </code></pre>
@@ -970,6 +970,9 @@ df2 %&gt;% select (Beer.Per.Capita, Beers, BeerCapita_Factor) %&gt;% ggpairs(aes
 <li>Instead we recommend continuing the recent strategy to make (or acquire) and market beers based off of a given state or regions bitterness preference in order to capture more market share in those areas.</li>
 </ol>
 </div>
+</div>
+<div id="further-exploration-by-each-state-can-be-done-through-the-app-here-httpsconnordobbs.shinyapps.iobeerapp" class="section level1">
+<h1>Further exploration by each state can be done through the app here: <a href="https://connordobbs.shinyapps.io/beerapp/" class="uri">https://connordobbs.shinyapps.io/beerapp/</a></h1>
 </div>
 
 

@@ -393,4 +393,6 @@ df2 %>% select (Beer.Per.Capita, Beers, BeerCapita_Factor) %>% ggpairs(aes(color
 
  1. It does not appear that there is justification to add additional breweries in states in order to increase demand - unless there is an opportunity to reduce distribution costs.
  1. Instead we recommend continuing the recent strategy to make (or acquire) and market beers based off of a given state or regions bitterness preference in order to capture more market share in those areas.
+ 
+# Further exploration by each state can be done through the app here:  https://connordobbs.shinyapps.io/beerapp/
 
